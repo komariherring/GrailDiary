@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		EEDE30EB1D4FA7E2001B4F89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDE30EA1D4FA7E2001B4F89 /* main.m */; };
 		EEDE30EE1D4FA7E2001B4F89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDE30ED1D4FA7E2001B4F89 /* AppDelegate.m */; };
-		EEDE30F11D4FA7E2001B4F89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDE30F01D4FA7E2001B4F89 /* ViewController.m */; };
 		EEDE30F41D4FA7E2001B4F89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDE30F21D4FA7E2001B4F89 /* Main.storyboard */; };
 		EEDE30F61D4FA7E2001B4F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEDE30F51D4FA7E2001B4F89 /* Assets.xcassets */; };
 		EEDE30F91D4FA7E2001B4F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDE30F71D4FA7E2001B4F89 /* LaunchScreen.storyboard */; };
+		EEDE31021D4FCE8A001B4F89 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDE31011D4FCE8A001B4F89 /* MainTableViewController.m */; };
+		EEDE31061D4FE1BD001B4F89 /* quarterbacks.JSON in Resources */ = {isa = PBXBuildFile; fileRef = EEDE31051D4FE1BD001B4F89 /* quarterbacks.JSON */; };
+		EEDE31091D4FE894001B4F89 /* QuarterbackDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDE31081D4FE894001B4F89 /* QuarterbackDetails.m */; };
+		EEDE310C1D5025A9001B4F89 /* QuarterbackDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDE310B1D5025A9001B4F89 /* QuarterbackDetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,17 @@
 		EEDE30EA1D4FA7E2001B4F89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EEDE30EC1D4FA7E2001B4F89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EEDE30ED1D4FA7E2001B4F89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EEDE30EF1D4FA7E2001B4F89 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EEDE30F01D4FA7E2001B4F89 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EEDE30F31D4FA7E2001B4F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEDE30F51D4FA7E2001B4F89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEDE30F81D4FA7E2001B4F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEDE30FA1D4FA7E2001B4F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEDE31001D4FCE8A001B4F89 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		EEDE31011D4FCE8A001B4F89 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		EEDE31051D4FE1BD001B4F89 /* quarterbacks.JSON */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = quarterbacks.JSON; path = ../quarterbacks.JSON; sourceTree = "<group>"; };
+		EEDE31071D4FE894001B4F89 /* QuarterbackDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuarterbackDetails.h; sourceTree = "<group>"; };
+		EEDE31081D4FE894001B4F89 /* QuarterbackDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuarterbackDetails.m; sourceTree = "<group>"; };
+		EEDE310A1D5025A9001B4F89 /* QuarterbackDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuarterbackDetailsViewController.h; sourceTree = "<group>"; };
+		EEDE310B1D5025A9001B4F89 /* QuarterbackDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuarterbackDetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +68,13 @@
 			children = (
 				EEDE30EC1D4FA7E2001B4F89 /* AppDelegate.h */,
 				EEDE30ED1D4FA7E2001B4F89 /* AppDelegate.m */,
-				EEDE30EF1D4FA7E2001B4F89 /* ViewController.h */,
-				EEDE30F01D4FA7E2001B4F89 /* ViewController.m */,
+				EEDE31001D4FCE8A001B4F89 /* MainTableViewController.h */,
+				EEDE31011D4FCE8A001B4F89 /* MainTableViewController.m */,
+				EEDE31071D4FE894001B4F89 /* QuarterbackDetails.h */,
+				EEDE31081D4FE894001B4F89 /* QuarterbackDetails.m */,
+				EEDE310A1D5025A9001B4F89 /* QuarterbackDetailsViewController.h */,
+				EEDE310B1D5025A9001B4F89 /* QuarterbackDetailsViewController.m */,
+				EEDE31051D4FE1BD001B4F89 /* quarterbacks.JSON */,
 				EEDE30F21D4FA7E2001B4F89 /* Main.storyboard */,
 				EEDE30F51D4FA7E2001B4F89 /* Assets.xcassets */,
 				EEDE30F71D4FA7E2001B4F89 /* LaunchScreen.storyboard */,
@@ -137,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEDE30F91D4FA7E2001B4F89 /* LaunchScreen.storyboard in Resources */,
+				EEDE31061D4FE1BD001B4F89 /* quarterbacks.JSON in Resources */,
 				EEDE30F61D4FA7E2001B4F89 /* Assets.xcassets in Resources */,
 				EEDE30F41D4FA7E2001B4F89 /* Main.storyboard in Resources */,
 			);
@@ -149,8 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEDE30F11D4FA7E2001B4F89 /* ViewController.m in Sources */,
+				EEDE310C1D5025A9001B4F89 /* QuarterbackDetailsViewController.m in Sources */,
+				EEDE31021D4FCE8A001B4F89 /* MainTableViewController.m in Sources */,
 				EEDE30EE1D4FA7E2001B4F89 /* AppDelegate.m in Sources */,
+				EEDE31091D4FE894001B4F89 /* QuarterbackDetails.m in Sources */,
 				EEDE30EB1D4FA7E2001B4F89 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

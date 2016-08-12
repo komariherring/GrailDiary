@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainTableViewController.h
 //  GrailDiary
 //
 //  Created by Komari Herring on 8/1/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainTableViewController : UITableViewController
 
 @end
-

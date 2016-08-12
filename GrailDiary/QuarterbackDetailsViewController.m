@@ -1,27 +1,30 @@
 //
-//  ViewController.m
+//  DetailTableViewController.m
 //  GrailDiary
 //
 //  Created by Komari Herring on 8/1/16.
 //  Copyright © 2016 The Iron Yard. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "QuarterbackDetailsViewController.h"
 
-@interface ViewController ()
+@interface QuarterbackDetailsViewController ()
 
 @end
 
-@implementation ViewController
+@implementation QuarterbackDetailsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 @end
